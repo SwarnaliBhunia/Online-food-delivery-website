@@ -22,7 +22,8 @@
 #logo img{
     height: 75px;
     margin:  6px 24px;
-    border-radius: 25%;
+    border-radius: 50%;
+    
 
 }
 
@@ -38,7 +39,8 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.9;
+    
 
 }
 
@@ -58,5 +60,39 @@
 #navbar ul li a:hover{
     color: black;
     background-color: white;
+    
+}
+/*home section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 530px;
+   /* background-image: url("shutterstock_594029531.jpg");*/
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url("shutterstock_594029531.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+#home p{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.h-primary{
+    font-size: 2.8rem;
+    padding: 29px;
+    background: #000000d0;
+    color: wheat;
+    border-radius: 13%;
+    align-items: center;
+    font-family: 'Lobster', cursive;
     
 }
