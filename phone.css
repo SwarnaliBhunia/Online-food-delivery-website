@@ -1,0 +1,88 @@
+
+.container-fluid{
+    overflow: hidden;
+}
+
+/*Navigation*/
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    padding: 7px 7px;
+}
+
+
+
+
+/* Home Section */
+#home{
+    height: 289px;
+   
+
+}
+#home::before{
+    height: 561px;
+    opacity: 0.8;
+    /*background: url("shutterstock_594029531.jpg") no-repeat center center/cover;*/
+}
+ #home p{ 
+    font-size: 1.2rem;
+    padding: 4px 20px;
+    margin: -6px;
+}
+
+
+
+/* Services Section*/
+#services{
+    flex-direction: column;
+
+}
+
+
+
+
+/* Clients Section */
+#clients{
+    overflow:hidden;
+}
+#clients1{
+    overflow:hidden;
+}
+#clients img {
+    height: 91px;
+    padding: 6px 6px;
+}
+#clients1 img {
+    height: 91px;
+    padding: 6px 6px;
+}
+#client-section{
+    height: 608px;
+    padding-top: 0px;
+}
+
+
+
+/* Contact Us */
+
+#contact-box{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 54px;
+    padding-left: 29px;
+}
+#contact-box form{
+    width: 65%;
+}
+
+/* footer */
+/* Utility classes */
+.h-primary{
+    font-size:1.8rem;
+    margin-top: 135px;
+}
+.h-primary1{
+    padding-top: 100px;
+}
