@@ -6,6 +6,7 @@
 /*Navigation*/
 #navbar{
     flex-direction: column;
+    /*position: sticky;*/
 }
 #navbar ul li a{
     padding: 7px 7px;
@@ -65,7 +66,11 @@
 
 
 /* Contact Us */
-
+#contact {
+    position: relative;
+    /* height: 221px; */
+    margin-top: 61px;
+}
 #contact-box{
     display: flex;
     justify-content: left;
